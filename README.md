@@ -22,6 +22,15 @@ unidad_1/practica/
     redes_neuronales/
         redes_neuronales_cnn.ipynb     # Redes convolucionales con PyTorch
         features_similitud_transfer_learning.ipynb  # Extracción de features, similitud y transfer learning
+
+unidad_2/practica/
+    cnn_modernas/
+        cnn_modernas_practica.ipynb            # Transfer learning sobre STL-10
+        reconocimiento_facial_practica.ipynb   # Pipeline de reconocimiento facial
+
+unidad_6/practica/
+    segmentacion_tracking/
+        segmentacion_tracking_practica.ipynb   # YOLO11-seg, benchmark CPU vs GPU y tracking
 ```
 
 ---
@@ -108,6 +117,7 @@ uv run jupyter nbconvert --to notebook --execute ruta/al/notebook.ipynb
 | `scikit-learn` | PCA, metricas y utilidades de ML |
 | `matplotlib` | Visualizacion |
 | `seaborn` | Graficos estadisticos |
+| `ultralytics` | YOLO11 (segmentacion y tracking) |
 
 Las versiones exactas estan fijadas en `uv.lock` para garantizar reproducibilidad.
 

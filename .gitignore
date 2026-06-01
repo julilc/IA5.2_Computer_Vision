@@ -32,6 +32,7 @@ ENV/
 # Datos y datasets (archivos pesados)
 # =============================================================================
 unidad_1/practica/redes_neuronales/data/
+unidad_6/practica/segmentacion_tracking/shinjuku.mp4
 
 # Archivos comprimidos de datasets
 *.tar.gz
